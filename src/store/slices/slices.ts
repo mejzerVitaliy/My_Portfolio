@@ -1,7 +1,8 @@
 import { combineReducers } from "@reduxjs/toolkit";
+import OpenModalSlice from "./OpenModalSlice";
 
 const rootReducers = combineReducers({
-    name: 'OpenModal'
+    name: OpenModalSlice
 })
 
 export default rootReducers

@@ -1,10 +1,15 @@
-import Link from "next/link";
+"use client"
+import Footer from "@/components/molecules/Footer/Footer";
+import Header from "@/components/molecules/Header/Header";
+import { ReduxProvider } from "@/store/providers";
 
-export default function Home() {
+export default function AboutPage() {
     return (
-        <main>
-            <h1>Home page</h1>
-            <Link href={'/about'}>To About</Link>
-        </main>
+        <ReduxProvider>
+            <main className="flex flex-col items-center justify-center">
+                <Header title="About Portfolio" selectedPage="/"/>
+                <Footer />
+            </main>
+        </ReduxProvider>
     );
 }
