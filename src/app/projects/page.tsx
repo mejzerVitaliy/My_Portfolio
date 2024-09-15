@@ -5,8 +5,8 @@ import Navbar from "@/components/templates/Navbar/Navbar";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Portfolio | Projects",
-  description: "This is page about my projects",
+    title: "Portfolio | Projects",
+    description: "This is page about my projects",
 };
 
 export default function ProjectsPage() {
