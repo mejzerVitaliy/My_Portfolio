@@ -3,7 +3,7 @@ import '../styles/globals.css'
 
 export const metadata: Metadata = {
     title: 'Portfolio | About',
-    description: 'This is page about my portfolio',
+    description: 'What is a Portfolio?',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

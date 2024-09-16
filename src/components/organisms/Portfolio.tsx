@@ -2,7 +2,7 @@ import React from 'react'
 
 const Portfolio: React.FC = () => {
     return (
-        <main className=" w-[80%]  p-[40px] rounded-[40px] border my-[50px] bg-[#111111e1]">
+        <main className=" w-[80%]  p-[40px] rounded-[40px] border my-[50px] bg-[#111111c4]">
             <section className='w-full'>
                 <article className='w-full px-[40px]'>
                     <h3 className='text-center text-[28px] mb-[20px]'><strong>This Website is My Portfolio</strong></h3>
