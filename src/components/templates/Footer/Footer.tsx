@@ -2,9 +2,9 @@ import React from 'react'
 
 const Footer: React.FC = () => {
     return (
-        <footer className='w-full h-[150px] static  bottom-0 grid place-items-center rounded-t-full blured border-t '>
+        <footer className='w-full h-[150px] absolute bottom-0 grid place-items-center rounded-t-full bg-[#111] border-t '>
             <section className='w-[70%] flex justify-between items-center'>
-                <h2 className='text-center text-[32px] font-semibold '>Contact me!</h2>
+                <h2 className='text-center text-[40px] font-bold '>Contact me!</h2>
 
                 <section className=' w-[70%] flex justify-end gap-[30px] items-center'>
                     <a className='hover:animate-bounce duration-150 w-[70px] h-[70px] grid place-items-center cursor-auto' href="https://github.com/mejzerVitaliy" target='blank'>

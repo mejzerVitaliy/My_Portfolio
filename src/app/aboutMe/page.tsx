@@ -1,3 +1,4 @@
+import AboutMe from "@/components/organisms/AboutMe";
 import Footer from "@/components/templates/Footer/Footer";
 import Header from "@/components/templates/Header/Header";
 import Navbar from "@/components/templates/Navbar/Navbar";
@@ -10,11 +11,11 @@ export const metadata: Metadata = {
 
 export default function AboutMePage() {
     return (
-        <main className="relative flex flex-col items-center justify-center">
+        <main className=" w-full h-full relative flex flex-col items-center">
             <Header />
             <Navbar selectedPage="aboutMe" />
             
-            
+            <AboutMe />
 
             <Footer />
         </main>
