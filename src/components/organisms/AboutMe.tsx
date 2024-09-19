@@ -1,4 +1,5 @@
 import React from 'react'
+import Hr from '../atoms/Hr'
 
 const AboutMe: React.FC = () => {
     return (
@@ -22,14 +23,14 @@ const AboutMe: React.FC = () => {
                             <p>Email: <u><a href="mailto:mejzervitalik@gmail.com">mejzervitalik@gmail.com</a></u></p>
                         </article>
 
-                        <hr className='my-[20px]' />
+                        <Hr/>
 
                         <article className='text-center'>
                             <h3 className='text-[30px] font-bold mb-[20px]'>Expected Salary:</h3>
                             <p><strong><u>300 - 600$</u></strong></p>
                         </article>
 
-                        <hr className='my-[20px]' />
+                        <Hr/>
 
                         <article className='text-left'>
                             <details className='cursor-default'>
@@ -60,7 +61,7 @@ const AboutMe: React.FC = () => {
 
                     </article>
 
-                    <hr className='my-[20px]' />
+                    <Hr/>
 
                     <article>
                         <h3 className='text-center mb-[20px] text-[30px] font-bold'>Tech stack:</h3>
@@ -91,16 +92,15 @@ const AboutMe: React.FC = () => {
                         </article>
                     </article>
 
-                    <hr className='my-[20px]' />
+                    <Hr/>
 
                     <article className='text-center'>
                         <h3 className='mb-[20px] text-[30px] font-bold'>Education:</h3>
-
                         <p>VOCATIONAL COLLEGE OF ONU NAMED I.I. MECHNYKOV</p>
                         <p><i>(Professional Junior Bachelor)</i></p>
                     </article>
 
-                    <hr className='my-[20px]' />
+                    <Hr/>
 
                     <article>
                         <h3 className='text-center mb-[20px] text-[30px] font-bold'>Work experience:</h3>

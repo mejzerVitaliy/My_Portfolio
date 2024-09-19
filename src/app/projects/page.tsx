@@ -1,3 +1,4 @@
+import ProjectsList from "@/components/organisms/ProjectsList";
 import Footer from "@/components/templates/Footer/Footer";
 import Header from "@/components/templates/Header/Header";
 import Navbar from "@/components/templates/Navbar/Navbar";
@@ -14,6 +15,7 @@ export default function ProjectsPage() {
             <Header />
             <Navbar selectedPage="projects" />
             
+            <ProjectsList/>
 
             <Footer />
         </main>
