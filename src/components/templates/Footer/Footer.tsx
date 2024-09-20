@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
                     </a>
                     
 
-                    <a title='Write me' className='hover:animate-bounce duration-150 w-[70px] h-[70px] grid place-items-center cursor-auto' href="mailto:mejzervitalik@gmail.com" target='blank'>
+                    <a title='My e-mail' className='hover:animate-bounce duration-150 w-[70px] h-[70px] grid place-items-center cursor-auto' href="mailto:mejzervitalik@gmail.com" target='blank'>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40" fill="currentColor">
                             <path d="M0 4c0-1.1.9-2 2-2h20c1.1 0 2 .9 2 2v16c0 1.1-.9 2-2 2H2c-1.1 0-2-.9-2-2V4zm22 0l-10 7L2 4v16h20V4zm-11 7L2 6v2l9 6 9-6V6l-9 5z"/>
                         </svg>

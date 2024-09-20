@@ -63,10 +63,10 @@ const Projects:React.FC = () => {
                 <ProjectItem
                     id='4'
                     header="MinimalMind - notes"
-                    description='ldfjbdf bmldf lb dxlmfb xdflb mlxdcgn; kxc nlmxfg nkgfnbxgj dlhgjl;kdjk dsjhkldnhk dgfg bd bdsfnbikdsnbljsdnbljnsdlbdlskrhgs .vl.sgh dva z.dgngcsgr hreocnseogeila'
+                    description='MinimalMind is my first project in which i used React and his librarys. Its very important project to me, becouse in one project i used nine technologies, thats i didnt used before this! This is notes, where all users haves personally account, and they can write and save notes, delete, like, view and change them. There are also searcher of notes and filtration by title, description, date of created/changed and liked notes. Also in this project I had to write a small server and use a fake API. Therefore, there is a small problem - when rebooting, the server does not understand what route it is on and displays a 404 error. I don’t know Backend development well, so I could not solve this problem.'
                     stack='HTML, SCSS, TypeScript, React, React Router, React-Hook-Form, Axios, TailwindCSS, AOS, JSON-server'
-                    linkToGitHub='https://github.com/mejzerVitaliy/stone-papper-scissors'
-                    linkToProject='https://mejzervitaliy.github.io/stone-papper-scissors/index.html'
+                    linkToGitHub='https://github.com/mejzerVitaliy/MinimalMindNotes'
+                    linkToProject='https://minimal-mind-notes.vercel.app/signIn'
                 />
 
                 <Hr/>
@@ -74,10 +74,16 @@ const Projects:React.FC = () => {
                 <ProjectItem
                     id='5'
                     header="Test task to role 'Junior React Developer'"
-                    description='ldfjbdf bmldf lb dxlmfb xdflb mlxdcgn; kxc nlmxfg nkgfnbxgj dlhgjl;kdjk dsjhkldnhk dgfg bd bdsfnbikdsnbljsdnbljnsdlbdlskrhgs .vl.sgh dva z.dgngcsgr hreocnseogeila'
+                    description={
+                        <>
+                            This project is a test task and I had 3 days to complete it. It was difficult, but I successfully completed this task. And here I used RTK and RTK Query for the first time. You can read more about the test task at this link: 
+                            <a href="https://deep-surf-d8d.notion.site/React-014caa1f25844f0db541050c54bd4d5d">  https://deep-surf-d8d.notion.site/React-014caa1f25844f0db541050c54bd4d5d</a>
+                        </>
+                        
+                    }
                     stack='HTML, SCSS, TypeScript, React, React Router, Redux Toolkit, RTK Query, TailwindCSS, JSON-server'
-                    linkToGitHub='https://github.com/mejzerVitaliy/stone-papper-scissors'
-                    linkToProject='https://mejzervitaliy.github.io/stone-papper-scissors/index.html'
+                    linkToGitHub='https://github.com/mejzerVitaliy/react-test-task'
+                    linkToProject='https://my-react-test-task.onrender.com'
                 />
 
                 <Hr/>
@@ -85,10 +91,10 @@ const Projects:React.FC = () => {
                 <ProjectItem
                     id='6'
                     header="Crypto Currency Exchanger"
-                    description='ldfjbdf bmldf lb dxlmfb xdflb mlxdcgn; kxc nlmxfg nkgfnbxgj dlhgjl;kdjk dsjhkldnhk dgfg bd bdsfnbikdsnbljsdnbljnsdlbdlskrhgs .vl.sgh dva z.dgngcsgr hreocnseogeila'
+                    description='This is another test task that I received from another company. It consisted of 3 tasks. The first was a task on knowledge of JavaScript. The second is to write a crypto currency translator using the provided API. I had to come up with the design myself. And the third task is to refactor the code. Solutions to all three tasks are available in the repository.'
                     stack='HTML, SCSS, TypeScript, React, Redux Toolkit, RTK Query, TailwindCSS'
-                    linkToGitHub='https://github.com/mejzerVitaliy/stone-papper-scissors'
-                    linkToProject='https://mejzervitaliy.github.io/stone-papper-scissors/index.html'
+                    linkToGitHub='https://github.com/mejzerVitaliy/Mejzer_Vitaliy_Vitalievich/tree/master/secondTask/fancy_form'
+                    linkToProject='https://crypto-currency-converter-gamma.vercel.app/'
                 />
 
                 <Hr/>
@@ -96,10 +102,10 @@ const Projects:React.FC = () => {
                 <ProjectItem
                     id='7'
                     header="This Portfolio"
-                    description='ldfjbdf bmldf lb dxlmfb xdflb mlxdcgn; kxc nlmxfg nkgfnbxgj dlhgjl;kdjk dsjhkldnhk dgfg bd bdsfnbikdsnbljsdnbljnsdlbdlskrhgs .vl.sgh dva z.dgngcsgr hreocnseogeila'
+                    description='I decided to make this site to increase my chances of finding a job as a front-end developer. Also in this project I used NextJS and SSR for the first time. I plan to update this site in the future, adding my new projects and updating information about myself.'
                     stack='HTML, CSS, TypeScript, React, NextJS, AppRouting, TailwindCSS'                    
-                    linkToGitHub='https://github.com/mejzerVitaliy/stone-papper-scissors'
-                    linkToProject='https://mejzervitaliy.github.io/stone-papper-scissors/index.html'
+                    linkToGitHub='https://github.com/mejzerVitaliy/My_Portfolio'
+                    linkToProject=''
                 />
 
             </section>
