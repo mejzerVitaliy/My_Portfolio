@@ -20,13 +20,13 @@ const Projects: React.FC = () => {
 
                 <H3>List of projects</H3>
                 <ol className='list-decimal mx-[40px]'>
-                    <li><P><a className='text-cyan-500' href="#1">Game &rsquo;Stone-Papper-Scissors&rsquo;</a></P></li>
-                    <li><P><a className='text-cyan-500' href="#2">Async Code and work with API practice</a></P></li>
-                    <li><P><a className='text-cyan-500' href="#3">Currency converter</a></P></li>
-                    <li><P><a className='text-cyan-500' href="#4">MinimalMind - notes</a></P></li>
-                    <li><P><a className='text-cyan-500' href="#5">Test task to role &rsquo;Junior React Developer&rsquo;</a></P></li>
-                    <li><P><a className='text-cyan-500' href="#6">Crypto Currency Exchanger</a></P></li>
-                    <li><P><a className='text-cyan-500' href="#7">This Portfolio</a></P></li>
+                    <li><P><a className='text-lime-500' href="#1">Game &rsquo;Stone-Papper-Scissors&rsquo;</a></P></li>
+                    <li><P><a className='text-lime-500' href="#2">Async Code and work with API practice</a></P></li>
+                    <li><P><a className='text-lime-500' href="#3">Currency converter</a></P></li>
+                    <li><P><a className='text-lime-500' href="#4">MinimalMind - notes</a></P></li>
+                    <li><P><a className='text-lime-500' href="#5">Test task to role &rsquo;Junior React Developer&rsquo;</a></P></li>
+                    <li><P><a className='text-lime-500' href="#6">Crypto Currency Exchanger</a></P></li>
+                    <li><P><a className='text-lime-500' href="#7">This Portfolio</a></P></li>
                 </ol>
 
                 <Hr />
@@ -108,7 +108,7 @@ const Projects: React.FC = () => {
                     description='I decided to make this site to increase my chances of finding a job as a front-end developer. Also, in this project, I used Next.js and SSR for the first time. I plan to update this site in the future, adding my new projects and updating information about myself.'
                     stack='HTML, CSS, TypeScript, React, Next.js, AppRouting, TailwindCSS'                    
                     linkToGitHub='https://github.com/mejzerVitaliy/My_Portfolio'
-                    linkToProject=''
+                    linkToProject=/*'https://myportfolio-ivory-three.vercel.app/'*/''
                 />
 
             </section>
