@@ -11,7 +11,7 @@ const Portfolio: React.FC = () => {
 
                     <P>
                         This website is my personal portfolio, built to demonstrate my frontend development skills. I created it using modern technologies such as <strong>TypeScript, React, Redux Toolkit (RTK), Tailwind CSS, and Next.js.</strong> These tools showcase my ability to work with a variety of technologies commonly used in frontend development today.
-                        Through this site, I aim to highlight my ability to design, build, and deploy responsive, performant, and visually appealing web applications. Each section of this portfolio demonstrates how I apply my technical skills and knowledge to real projects. Whether you're a potential employer or client, this portfolio gives you a clear picture of what I can do.
+                        Through this site, I aim to highlight my ability to design, build, and deploy responsive, performant, and visually appealing web applications. Each section of this portfolio demonstrates how I apply my technical skills and knowledge to real projects. Whether you’re a potential employer or client, this portfolio gives you a clear picture of what I can do.
                     </P>
                 </article>
 
@@ -19,7 +19,7 @@ const Portfolio: React.FC = () => {
                     <H3><strong>What is a Portfolio and Why is it Important?</strong></H3>
 
                     <P>
-                        A portfolio is an essential tool for frontend developers, especially when you're searching for a job or looking to impress potential clients. It’s a collection of projects and work that you have built, designed to demonstrate your skills, experience, and expertise.
+                        A portfolio is an essential tool for frontend developers, especially when you’re searching for a job or looking to impress potential clients. It’s a collection of projects and work that you have built, designed to demonstrate your skills, experience, and expertise.
                         For a frontend developer, a portfolio is like a visual resume where you can show exactly what you are capable of. Instead of just listing your skills, you have the opportunity to prove them through the projects you’ve completed.
                     </P>
                 </article>
@@ -41,7 +41,7 @@ const Portfolio: React.FC = () => {
                     <P>To build an effective portfolio, make sure to include the following:</P>
 
                     <ol className=' list-disc sm:mx-[20px] lg:mx-[40px]'>
-                        <li className='m-[10px]'><P><strong>Featured Projects:</strong> Choose a few key projects that highlight your strengths. These can be professional projects or personal ones where you’ve applied the skills required for the jobs you're seeking.</P></li>
+                        <li className='m-[10px]'><P><strong>Featured Projects:</strong> Choose a few key projects that highlight your strengths. These can be professional projects or personal ones where you’ve applied the skills required for the jobs you’re seeking.</P></li>
                         <li className='m-[10px]'><P><strong>Technology Stack:</strong> For each project, clearly mention the technology stack you used, such as HTML, CSS, JavaScript, React, or other tools relevant to frontend development.</P></li>
                         <li className='m-[10px]'><P><strong>Code Samples:</strong> Include links to code repositories like GitHub where employers can see the source code of your projects.</P></li>
                         <li className='m-[10px]'><P><strong>Descriptions of Your Role:</strong> Explain your contribution to each project, what problems you solved, and how you applied your skills.</P></li>
