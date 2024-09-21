@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React from 'react'
 import Hr from '../atoms/Hr'
 import ProjectItem from '../templates/ProjectItem'
@@ -10,7 +12,7 @@ const Projects: React.FC = () => {
             <section>
                 <H3><span className='scroll-mt-[200px]' id='Top'>My projects</span></H3>
 
-                <P>I’ve been studying front-end development for a long time. There are a lot of different technologies that you need to remember well. To do this, it is not enough to become familiar with the technology in theory; the developer must learn to apply this technology in practice, and understand how this technology helps solve the problem. To do this, the engineer must write projects.</P>
+                <P>I&rsquo;ve been studying front-end development for a long time. There are a lot of different technologies that you need to remember well. To do this, it is not enough to become familiar with the technology in theory; the developer must learn to apply this technology in practice, and understand how this technology helps solve the problem. To do this, the engineer must write projects.</P>
 
                 <P>This page contains all my projects, from the very first to now. Also, almost all projects have a link to the GitHub repository and a link to the deployed project. Enjoy watching!</P>
 

@@ -1,8 +1,5 @@
 import React from 'react'
-import Hr from '../atoms/Hr'
-import H3 from '../atoms/H3'
-import P from '../atoms/P'
-import AboutMobileDesktop from '../molecules/AboutMobileDesktop'
+import AboutMobileDesktop from '../molecules/AboutMeDesktop'
 import AboutMeMobile from '../molecules/AboutMeMobile'
 
 const AboutMe: React.FC = () => {
