@@ -1,28 +1,30 @@
 import React from 'react'
 import Hr from '../atoms/Hr'
 import ProjectItem from '../templates/ProjectItem'
+import P from '../atoms/P'
+import H3 from '../atoms/H3'
 
 const Projects:React.FC = () => {
     return (
-        <main className=" w-[80%]  p-[40px] rounded-[40px] border m-[50px_0_200px] bg-[#111111c4]">
-            <section className='mx-[40px]'>
-                <h3 className='text-center mb-[20px] text-[30px] font-bold'>My projects</h3>
+        <main className=" w-[99%] sm:w-[85%] p-[20px] sm:p-[30px] lg:p-[50px] rounded-[40px] border m-[20px_0_100px] sm:m-[40px_0_160px] bg-[#111111c4]">
+            <section>
+                <H3><span className='scroll-mt-[200px]' id='Top'>My projects</span></H3>
 
-                <p>I've been studying front-end development for a long time. There are a lot of different technologies that you need to remember well. To do this, it is not enough to become familiar with the technology in theory; the developer must learn to apply this technology in practice, and understand how this technology helps solve the problem. To do this, the engineer must write projects.</p>
+                <P>I've been studying front-end development for a long time. There are a lot of different technologies that you need to remember well. To do this, it is not enough to become familiar with the technology in theory; the developer must learn to apply this technology in practice, and understand how this technology helps solve the problem. To do this, the engineer must write projects.</P>
 
-                <p>This page contains all my projects, from the very first to now. Also, almost all projects have a link to the GitHub repository and a link to the deployed project. Enjoy watching!</p>
+                <P>This page contains all my projects, from the very first to now. Also, almost all projects have a link to the GitHub repository and a link to the deployed project. Enjoy watching!</P>
 
                 <Hr />
 
-                <h3 className='text-center mb-[20px] text-[30px] font-bold'>List of projects</h3>
+                <H3>List of projects</H3>
                 <ol className='list-decimal mx-[40px]'>
-                    <li><a className='text-cyan-500' href="#1">Game 'Stone-Papper-Scissors'</a></li>
-                    <li><a className='text-cyan-500' href="#2">Async Code and work with API practice</a></li>
-                    <li><a className='text-cyan-500' href="#3">Currency converter</a></li>
-                    <li><a className='text-cyan-500' href="#4">MinimalMind - notes</a></li>
-                    <li><a className='text-cyan-500' href="#5">Test task to role 'Junior React Developer'</a></li>
-                    <li><a className='text-cyan-500' href="#6">Crypto Currency Exchanger</a></li>
-                    <li ><a className='text-cyan-500' href="#7">This Portfolio</a></li>
+                    <li><P><a className='text-cyan-500' href="#1">Game 'Stone-Papper-Scissors'</a></P></li>
+                    <li><P><a className='text-cyan-500' href="#2">Async Code and work with API practice</a></P></li>
+                    <li><P><a className='text-cyan-500' href="#3">Currency converter</a></P></li>
+                    <li><P><a className='text-cyan-500' href="#4">MinimalMind - notes</a></P></li>
+                    <li><P><a className='text-cyan-500' href="#5">Test task to role 'Junior React Developer'</a></P></li>
+                    <li><P><a className='text-cyan-500' href="#6">Crypto Currency Exchanger</a></P></li>
+                    <li><P><a className='text-cyan-500' href="#7">This Portfolio</a></P></li>
                 </ol>
 
                 <Hr />
