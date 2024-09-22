@@ -108,7 +108,7 @@ const Projects: React.FC = () => {
                     description='I decided to make this site to increase my chances of finding a job as a front-end developer. Also, in this project, I used Next.js and SSR for the first time. I plan to update this site in the future, adding my new projects and updating information about myself.'
                     stack='HTML, CSS, TypeScript, React, Next.js, AppRouting, TailwindCSS'                    
                     linkToGitHub='https://github.com/mejzerVitaliy/My_Portfolio'
-                    linkToProject=/*'https://myportfolio-ivory-three.vercel.app/'*/''
+                    linkToProject='https://myportfolio-ivory-three.vercel.app/'
                 />
 
             </section>
