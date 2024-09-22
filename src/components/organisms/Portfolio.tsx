@@ -3,6 +3,7 @@
 import React from 'react'
 import H3 from '../atoms/H3'
 import P from '../atoms/P'
+import Hr from '../atoms/Hr'
 
 const Portfolio: React.FC = () => {
     return (
@@ -17,6 +18,8 @@ const Portfolio: React.FC = () => {
                     </P>
                 </article>
 
+                <Hr/>
+
                 <article className='w-full px-[10px] mb-[20px]'>
                     <H3><strong>What is a Portfolio and Why is it Important?</strong></H3>
 
@@ -25,6 +28,8 @@ const Portfolio: React.FC = () => {
                         For a frontend developer, a portfolio is like a visual resume where you can show exactly what you are capable of. Instead of just listing your skills, you have the opportunity to prove them through the projects you’ve completed.
                     </P>
                 </article>
+
+                <Hr/>
 
                 <article className='w-full px-[10px] mb-[20px]'>
                     <H3><strong>Why Do You Need a Portfolio?</strong></H3>
@@ -37,6 +42,8 @@ const Portfolio: React.FC = () => {
                         <li className='m-[10px]'><P><strong>Stand Out from the Crowd:</strong> Many candidates apply for the same positions, but a well-structured portfolio can make you stand out and leave a lasting impression.</P></li>
                     </ol>
                 </article>
+
+                <Hr/>
 
                 <article className='w-full px-[10px]'>
                     <H3><strong>What Should a Frontend Developer Include in a Portfolio?</strong></H3>
